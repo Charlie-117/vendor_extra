@@ -18,4 +18,5 @@
 # Apps
 PRODUCT_PACKAGES += \
     SimpleGallery \
-    DDGbrowser
+    DDGbrowser \
+    rmEmail
