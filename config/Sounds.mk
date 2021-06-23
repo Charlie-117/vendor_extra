@@ -17,6 +17,7 @@
 
 # Sounds
 MODS_NOTIFICATION_PATH := $(MOTOMODS_PATH)/prebuilt/sounds/notifications
+MODS_RINGTONE_PATH := $(MOTOMODS_PATH)/prebuilt/sounds/ringtones
 
 # Notifications
 PRODUCT_COPY_FILES += \
@@ -26,6 +27,14 @@ PRODUCT_COPY_FILES += \
     $(MODS_NOTIFICATION_PATH)/pika.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pika.ogg \
     $(MODS_NOTIFICATION_PATH)/RetroHelloMoto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/RetroHelloMoto.ogg
 
+# Ringtones
+PRODUCT_COPY_FILES += \
+    $(MODS_RINGTONE_PATH)/HelloMoto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/HelloMoto.ogg \
+    $(MODS_RINGTONE_PATH)/Moto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Moto.ogg \
+    $(MODS_RINGTONE_PATH)/Moto2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Moto2.ogg \
+    $(MODS_RINGTONE_PATH)/MotoRetro.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MotoRetro.ogg
+
 # Set defaults
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Moto2.ogg \
     ro.config.notification_sound=HelloMoto.ogg

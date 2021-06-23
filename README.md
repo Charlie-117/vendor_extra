@@ -10,7 +10,7 @@ Manu custom ROMs call the makefile in this path, but make sure that you check it
     - Gallery with Simple Gallery.
 - Removes Email App
 - A bash script to quickly update the APKs
-- Added various Motorola notification sounds
+- Added various Motorola ringtones and notification sounds
 
 # Credits
 
