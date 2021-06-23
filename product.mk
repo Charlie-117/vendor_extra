@@ -18,3 +18,4 @@
 MOTOMODS_PATH := vendor/extra
 
 $(call inherit-product, $(MOTOMODS_PATH)/config/Apps.mk)
+$(call inherit-product, $(MOTOMODS_PATH)/config/Sounds.mk)
