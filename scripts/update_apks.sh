@@ -7,3 +7,6 @@ curl -s https://api.github.com/repos/$1/releases/latest \
 | tr -d \" \
 | wget -qi -
 }
+
+fetch_apk "SimpleMobileTools/Simple-Gallery"
+mv *.apk ../prebuilt/apk/SimpleGallery.apk
