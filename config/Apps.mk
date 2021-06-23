@@ -17,4 +17,5 @@
 
 # Apps
 PRODUCT_PACKAGES += \
-    SimpleGallery
+    SimpleGallery \
+    DDGbrowser

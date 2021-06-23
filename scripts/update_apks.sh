@@ -10,3 +10,6 @@ curl -s https://api.github.com/repos/$1/releases/latest \
 
 fetch_apk "SimpleMobileTools/Simple-Gallery"
 mv *.apk ../prebuilt/apk/SimpleGallery.apk
+
+fetch_apk "duckduckgo/Android"
+mv *.apk ../prebuilt/apk/DDGbrowser.apk
