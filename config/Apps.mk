@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 wow you are reading this.
+# Copyright (C) 2021 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 #
 # Licensed under the Apache License, Version 2.0 (the License);
 # you may not use this file except in compliance with the License.
@@ -15,6 +15,5 @@
 #
 #
 
-MOTOMODS_PATH := vendor/extra
-
-$(call inherit-product, $(MOTOMODS_PATH)/config/Apps.mk)
+# Apps
+PRODUCT_PACKAGES +=
