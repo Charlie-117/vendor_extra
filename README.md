@@ -11,6 +11,7 @@ Manu custom ROMs call the makefile in this path, but make sure that you check it
 - Removes Email App
 - A bash script to quickly update the APKs
 - Added various Motorola ringtones and notification sounds
+- A [manifest](scripts/crdroid-8916.xml) file for fun.
 
 # Credits
 
