@@ -17,5 +17,9 @@
 
 MOTOMODS_PATH := vendor/extra
 
+# Vendor configs
 $(call inherit-product, $(MOTOMODS_PATH)/config/Apps.mk)
 $(call inherit-product, $(MOTOMODS_PATH)/config/Sounds.mk)
+
+# Gapps
+$(call inherit-product-if-exists, vendor/mgapps/arm/arm-vendor.mk)
