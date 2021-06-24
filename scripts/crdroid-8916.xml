@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://github.com/" name="git"/>
+  <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="https://gitlab.com/" name="gitlab"/>
   <remote fetch="https://gitlab.com/NemesisDevelopers/" name="nemesis"/>
 
         <!-- Device Trees -->
-        <project name="Charlie-117/device_motorola_merlin" revision="crdroid-11-test" remote="git" path="device/motorola/merlin"/>
-        <project name="jro1979oliver/device_motorola_harpia" revision="lineage-18.1" remote="git" path="device/motorola/harpia"/>
+        <project name="Charlie-117/device_motorola_merlin" revision="crdroid-11-test" remote="github" path="device/motorola/merlin"/>
+        <project name="jro1979oliver/device_motorola_harpia" revision="lineage-18.1" remote="github" path="device/motorola/harpia"/>
 
         <!-- Common Device Tree -->
-        <project name="Charlie-117/device_motorola_msm8916-common" revision="crdroid-11-test" remote="git" path="device/motorola/msm8916-common"/>
+        <project name="Charlie-117/device_motorola_msm8916-common" revision="crdroid-11-test" remote="github" path="device/motorola/msm8916-common"/>
 
         <!-- Kernel, Vendor -->
-        <project name="AICP/kernel_motorola_msm8916" revision="r11.1" remote="git" path="kernel/motorola/msm8916"/>
-        <project name="Charlie-117/proprietary_vendor_motorola" revision="crdroid-11" remote="git" path="vendor/motorola"/>
+        <project name="AICP/kernel_motorola_msm8916" revision="r11.1" remote="github" path="kernel/motorola/msm8916"/>
+        <project name="Charlie-117/proprietary_vendor_motorola" revision="crdroid-11" remote="github" path="vendor/motorola"/>
 
         <!-- MotoMods -->
-        <project name="Charlie-117/vendor_extras" revision="master" remote="git" path="vendor/extras"/>
+        <project name="Charlie-117/vendor_extras" revision="master" remote="github" path="vendor/extras"/>
 
         <!-- MotoCamera -->
         <project name="moto-camera/motorola_cameraone" revision="eleven-arm" remote="nemesis" path="packages/apps/MotCamera"/>
         <project name="moto-camera/motorola_cameraone_overlay" revision="ten" remote="nemesis" path="packages/apps/MotCamera-overlay"/>
         <project name="motorola/motorola_motosignatureapp" revision="eleven" remote="nemesis" path="packages/apps/MotoSignatureApp"/>
 
+        <!-- MindTheGapps -->
+        <project name="MindTheGapps/vendor_gapps" revision="rho" remote="gitlab" path="vendor/mgapps"/>
+
         <!-- Temporary for testing Turbo Charging
         <remove-project name="crdroidandroid/android_frameworks_base"/>
-        <project name="Charlie-117/android_frameworks_base" revision="11.0" remote="git" path="frameworks/base"/>
+        <project name="Charlie-117/android_frameworks_base" revision="11.0" remote="github" path="frameworks/base"/>
          -->
 
         <!-- Misc dependencies -->
-        <project name="LineageOS/android_external_bson" revision="lineage-18.1" remote="git" path="external/bson"/>
-        <project name="LineageOS/android_system_qcom" revision="lineage-18.1" remote="git" path="system/qcom"/>
-        <project name="LineageOS/android_hardware_sony_timekeep" revision="lineage-18.1" remote="git" path="hardware/sony/timekeep"/>
-        <project name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-18.1" remote="git" path="external/sony/boringssl-compat"/>
+        <project name="LineageOS/android_external_bson" revision="lineage-18.1" remote="github" path="external/bson"/>
+        <project name="LineageOS/android_system_qcom" revision="lineage-18.1" remote="github" path="system/qcom"/>
+        <project name="LineageOS/android_hardware_sony_timekeep" revision="lineage-18.1" remote="github" path="hardware/sony/timekeep"/>
+        <project name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-18.1" remote="github" path="external/sony/boringssl-compat"/>
 
 </manifest>
