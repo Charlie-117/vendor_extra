@@ -15,7 +15,7 @@
 #
 #
 
-MOTOMODS_PATH := vendor/extra
+MOTOMODS_PATH := vendor/mmods
 
 # Vendor configs
 $(call inherit-product, $(MOTOMODS_PATH)/config/Apps.mk)

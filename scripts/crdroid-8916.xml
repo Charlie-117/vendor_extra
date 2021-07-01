@@ -17,7 +17,7 @@
         <project name="Charlie-117/proprietary_vendor_motorola" revision="crdroid-11" remote="github" path="vendor/motorola"/>
 
         <!-- MotoMods -->
-        <project name="Charlie-117/vendor_extras" revision="master" remote="github" path="vendor/extras"/>
+        <project name="Charlie-117/vendor_extras" revision="master" remote="github" path="vendor/mmods"/>
 
         <!-- MotoCamera -->
         <project name="moto-camera/motorola_cameraone" revision="eleven-arm" remote="nemesis" path="packages/apps/MotCamera"/>
