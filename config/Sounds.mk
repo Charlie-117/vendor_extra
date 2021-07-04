@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     $(MODS_NOTIFICATION_PATH)/Moto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Moto.ogg \
     $(MODS_NOTIFICATION_PATH)/Moto2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Moto2.ogg \
     $(MODS_NOTIFICATION_PATH)/pika.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/pika.ogg \
-    $(MODS_NOTIFICATION_PATH)/RetroHelloMoto.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/RetroHelloMoto.ogg
+    $(MODS_NOTIFICATION_PATH)/RetroHelloMoto.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/RetroHelloMoto.mp3
 
 # Ringtones
 PRODUCT_COPY_FILES += \
