@@ -19,7 +19,7 @@
         <project name="Charlie-117/vendor_extra" revision="master" remote="git" path="vendor/mmods"/>
 
         <!-- MindTheGapps -->
-        <project name="MindTheGapps/vendor_gapps" revision="rho" remote="gitlabs" path="vendor/gapps"/>
+        <project name="charlie117/vendor_gapps" revision="rho" remote="gitlabs" path="vendor/gapps"/>
 
         <!-- Misc dependencies -->
         <project name="LineageOS/android_external_bson" revision="lineage-18.1" remote="git" path="external/bson"/>
